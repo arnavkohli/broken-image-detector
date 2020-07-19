@@ -1,0 +1,182 @@
+
+Execution of 2 spec files started at 2020-07-18T21:59:01.693Z
+
+(node:64865) ExperimentalWarning: The dns.promises API is experimental
+(node:64865) ExperimentalWarning: The fs.promises API is experimental
+2020-07-18T21:59:01.777Z INFO @wdio/cli:launcher: Run onPrepare hook
+Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 9515
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1595109541.874][WARNING]: FromSockAddr failed on netmask
+ChromeDriver was started successfully.
+2020-07-18T21:59:01.928Z INFO @wdio/cli:launcher: Run onWorkerStart hook
+2020-07-18T21:59:01.929Z INFO @wdio/cli:launcher: Run onWorkerStart hook
+2020-07-18T21:59:01.932Z INFO @wdio/local-runner: Start worker 0-0 with arg: run,wdio.conf.js
+2020-07-18T21:59:01.938Z INFO @wdio/local-runner: Start worker 0-1 with arg: run,wdio.conf.js
+[0-0] (node:64870) ExperimentalWarning: The dns.promises API is experimental
+[0-0] (node:64870) ExperimentalWarning: The fs.promises API is experimental
+[0-0] 2020-07-18T21:59:02.591Z INFO @wdio/local-runner: Run worker command: run
+[0-1] (node:64871) ExperimentalWarning: The dns.promises API is experimental
+[0-1] (node:64871) ExperimentalWarning: The fs.promises API is experimental
+[0-1] 2020-07-18T21:59:02.596Z INFO @wdio/local-runner: Run worker command: run
+[0-0] 2020-07-18T21:59:02.604Z INFO webdriverio: Initiate new session using the ./protocol-stub protocol
+[0-1] 2020-07-18T21:59:02.614Z INFO webdriverio: Initiate new session using the ./protocol-stub protocol
+[0-1] RUNNING in chrome - /test/specs/example.e2e.js
+[0-1] 2020-07-18T21:59:02.972Z INFO webdriverio: Initiate new session using the webdriver protocol
+[0-1] 2020-07-18T21:59:02.980Z INFO webdriver: [POST] http://localhost:9515/session
+[0-1] 2020-07-18T21:59:02.981Z INFO webdriver: DATA { capabilities:
+   { alwaysMatch: { browserName: 'chrome', acceptInsecureCerts: true },
+     firstMatch: [ {} ] },
+  desiredCapabilities: { browserName: 'chrome', acceptInsecureCerts: true } }
+[0-0] RUNNING in chrome - /test/specs/basic.js
+[0-0] 2020-07-18T21:59:03.169Z INFO webdriverio: Initiate new session using the webdriver protocol
+[0-0] 2020-07-18T21:59:03.174Z INFO webdriver: [POST] http://localhost:9515/session
+[0-0] 2020-07-18T21:59:03.174Z INFO webdriver: DATA { capabilities:
+   { alwaysMatch: { browserName: 'chrome', acceptInsecureCerts: true },
+     firstMatch: [ {} ] },
+  desiredCapabilities: { browserName: 'chrome', acceptInsecureCerts: true } }
+[0-1] (node:64871) ExperimentalWarning: Readable[Symbol.asyncIterator] is an experimental feature. This feature could change at any time
+[0-0] (node:64870) ExperimentalWarning: Readable[Symbol.asyncIterator] is an experimental feature. This feature could change at any time
+[0-1] 2020-07-18T21:59:07.007Z INFO webdriver: COMMAND navigateTo("https://the-internet.herokuapp.com/login")
+[0-0] 2020-07-18T21:59:07.007Z INFO webdriver: COMMAND navigateTo("https://www.americanexpress.com/in/")
+[0-0] 2020-07-18T21:59:07.009Z INFO webdriver: [POST] http://localhost:9515/session/aa66563352a6ac2cbb5287af831e1cef/url
+[0-1] 2020-07-18T21:59:07.009Z INFO webdriver: [POST] http://localhost:9515/session/6188239c08c8dbfaedef19324b9d26cf/url
+[0-1] 2020-07-18T21:59:07.010Z INFO webdriver: DATA { url: 'https://the-internet.herokuapp.com/login' }
+[0-0] 2020-07-18T21:59:07.010Z INFO webdriver: DATA { url: 'https://www.americanexpress.com/in/' }
+[0-0] 2020-07-18T21:59:09.535Z INFO webdriver: COMMAND findElements("tag name", "img")
+[0-0] 2020-07-18T21:59:09.536Z INFO webdriver: [POST] http://localhost:9515/session/aa66563352a6ac2cbb5287af831e1cef/elements
+[0-0] 2020-07-18T21:59:09.536Z INFO webdriver: DATA { using: 'tag name', value: 'img' }
+
+The execution has stopped!
+You can now go into the browser or use the command line as REPL
+(To exit, press ^C again or type .exit)
+
+[0-0] › [0-0] 2020-07-18T21:59:09.761Z INFO webdriver: RESULT [ { 'element-6066-11e4-a52e-4f735466cecf': '46d63495-e47e-4a36-a075-777849140993' },
+  { 'element-6066-11e4-a52e-4f735466cecf': '3c79c847-41d6-42dd-9f84-383e15cb06b6' },
+  { 'element-6066-11e4-a52e-4f735466cecf': '4737d8f3-b3c9-4881-af6b-01dae9d14c0c' },
+  { 'element-6066-11e4-a52e-4f735466cecf': '897891f4-fd15-4cff-af2e-27c984536d3d' },
+  { 'element-6066-11e4-a52e-4f735466cecf': 'de5c6a9f-1fa7-42ce-b6a7-0895a0fa5480' },
+  { 'element-6066-11e4-a52e-4f735466cecf': 'df3aaee3-0749-409a-a2d3-175fe467f3b6' },
+  { 'element-6066-11e4-a52e-4f735466cecf': '4fc9d982-a731-4018-9af9-51e1688b0b91' },
+  { 'element-6066-11e4-a52e-4f735466cecf': '009d1d34-3b5f-4965-b47b-86f90d386733' },
+  { 'element-6066-11e4-a52e-4f735466cecf': '4ff10171-0832-430d-9869-ef1aa3fceb11' },
+  { 'element-6066-11e4-a52e-4f735466cecf': 'f09bb625-6efa-4b36-a303-4c4116b658a9' },
+  { 'element-6066-11e4-a52e-4f735466cecf': 'ba75d373-e909-4628-a3e4-f6191aaad420' } ]
+[0-0] 2020-07-18T21:59:09.792Z INFO webdriver: COMMAND getElementAttribute("46d63495-e47e-4a36-a075-777849140993", "src")
+[0-0] 2020-07-18T21:59:09.795Z INFO webdriver: [GET] http://localhost:9515/session/aa66563352a6ac2cbb5287af831e1cef/element/46d63495-e47e-4a36-a075-777849140993/attribute/src
+[0-0] 2020-07-18T21:59:09.799Z INFO webdriver: COMMAND getElementAttribute("3c79c847-41d6-42dd-9f84-383e15cb06b6", "src")
+[0-0] 2020-07-18T21:59:09.800Z INFO webdriver: [GET] http://localhost:9515/session/aa66563352a6ac2cbb5287af831e1cef/element/3c79c847-41d6-42dd-9f84-383e15cb06b6/attribute/src
+[0-0] 2020-07-18T21:59:09.802Z INFO webdriver: COMMAND getElementAttribute("4737d8f3-b3c9-4881-af6b-01dae9d14c0c", "src")
+[0-0] 2020-07-18T21:59:09.803Z INFO webdriver: [GET] http://localhost:9515/session/aa66563352a6ac2cbb5287af831e1cef/element/4737d8f3-b3c9-4881-af6b-01dae9d14c0c/attribute/src
+[0-0] 2020-07-18T21:59:09.805Z INFO webdriver: COMMAND getElementAttribute("897891f4-fd15-4cff-af2e-27c984536d3d", "src")
+[0-0] 2020-07-18T21:59:09.806Z INFO webdriver: [GET] http://localhost:9515/session/aa66563352a6ac2cbb5287af831e1cef/element/897891f4-fd15-4cff-af2e-27c984536d3d/attribute/src
+[0-0] 2020-07-18T21:59:09.808Z INFO webdriver: COMMAND getElementAttribute("de5c6a9f-1fa7-42ce-b6a7-0895a0fa5480", "src")
+[0-0] 2020-07-18T21:59:09.808Z INFO webdriver: [GET] http://localhost:9515/session/aa66563352a6ac2cbb5287af831e1cef/element/de5c6a9f-1fa7-42ce-b6a7-0895a0fa5480/attribute/src
+[0-0] 2020-07-18T21:59:09.812Z INFO webdriver: COMMAND getElementAttribute("df3aaee3-0749-409a-a2d3-175fe467f3b6", "src")
+[0-0] 2020-07-18T21:59:09.812Z INFO webdriver: [GET] http://localhost:9515/session/aa66563352a6ac2cbb5287af831e1cef/element/df3aaee3-0749-409a-a2d3-175fe467f3b6/attribute/src
+[0-0] 2020-07-18T21:59:09.814Z INFO webdriver: COMMAND getElementAttribute("4fc9d982-a731-4018-9af9-51e1688b0b91", "src")
+[0-0] 2020-07-18T21:59:09.815Z INFO webdriver: [GET] http://localhost:9515/session/aa66563352a6ac2cbb5287af831e1cef/element/4fc9d982-a731-4018-9af9-51e1688b0b91/attribute/src
+[0-0] 2020-07-18T21:59:09.820Z INFO webdriver: COMMAND getElementAttribute("009d1d34-3b5f-4965-b47b-86f90d386733", "src")
+[0-0] 2020-07-18T21:59:09.820Z INFO webdriver: [GET] http://localhost:9515/session/aa66563352a6ac2cbb5287af831e1cef/element/009d1d34-3b5f-4965-b47b-86f90d386733/attribute/src
+[0-0] 2020-07-18T21:59:09.822Z INFO webdriver: COMMAND getElementAttribute("4ff10171-0832-430d-9869-ef1aa3fceb11", "src")
+[0-0] 2020-07-18T21:59:09.824Z INFO webdriver: [GET] http://localhost:9515/session/aa66563352a6ac2cbb5287af831e1cef/element/4ff10171-0832-430d-9869-ef1aa3fceb11/attribute/src
+[0-0] 2020-07-18T21:59:09.826Z INFO webdriver: COMMAND getElementAttribute("f09bb625-6efa-4b36-a303-4c4116b658a9", "src")
+[0-0] 2020-07-18T21:59:09.826Z INFO webdriver: [GET] http://localhost:9515/session/aa66563352a6ac2cbb5287af831e1cef/element/f09bb625-6efa-4b36-a303-4c4116b658a9/attribute/src
+[0-0] 2020-07-18T21:59:09.829Z INFO webdriver: COMMAND getElementAttribute("ba75d373-e909-4628-a3e4-f6191aaad420", "src")
+[0-0] 2020-07-18T21:59:09.829Z INFO webdriver: [GET] http://localhost:9515/session/aa66563352a6ac2cbb5287af831e1cef/element/ba75d373-e909-4628-a3e4-f6191aaad420/attribute/src
+[0-0] 2020-07-18T21:59:09.950Z INFO webdriver: RESULT https://www.aexp-static.com/cdaas/one/statics/axp-static-assets/1.8.0/package/dist/img/logos/dls-logo-bluebox-solid.svg
+[0-0] 2020-07-18T21:59:09.963Z INFO webdriver: RESULT https://www.aexp-static.com/cdaas/one/statics/axp-static-assets/1.8.0/package/dist/img/logos/dls-logo-stack.svg
+[0-0] 2020-07-18T21:59:09.974Z INFO webdriver: RESULT https://www.aexp-static.com/cdaas/one/statics/axp-static-assets/1.8.0/package/dist/img/logos/dls-logo-stack-white.svg
+[0-0] 2020-07-18T21:59:09.985Z INFO webdriver: RESULT https://www.aexp-static.com/cdaas/one/statics/axp-static-assets/1.8.0/package/dist/img/logos/dls-logo-stack.svg
+[0-0] 2020-07-18T21:59:09.997Z INFO webdriver: RESULT https://www.aexp-static.com/cdaas/one/statics/axp-static-assets/1.8.0/package/dist/img/logos/dls-logo-stack-white.svg
+[0-0] 2020-07-18T21:59:10.008Z INFO webdriver: RESULT https://www.aexp-static.com/cdaas/one/statics/axp-static-assets/2.7.0/package/dist/img/flags/dls-flag-in.svg
+[0-0] 2020-07-18T21:59:10.018Z INFO webdriver: RESULT https://www.aexp-static.com/cdaas/one/statics/axp-static-assets/2.7.0/package/dist/img/flags/dls-flag-in.svg
+[0-0] 2020-07-18T21:59:10.045Z INFO webdriver: RESULT https://www.americanexpress.com/content/dam/amex/common/login-box-overlay/desktop-graphic.png
+[0-0] 2020-07-18T21:59:10.055Z INFO webdriver: RESULT https://www.americanexpress.com/content/dam/amex/common/login-box-overlay/tablet-graphic.png
+[0-0] 2020-07-18T21:59:10.073Z INFO webdriver: RESULT https://www.aexp-static.com/cdaas/one/statics/axp-static-assets/1.7.1/package/dist/img/logos/dls-logo-line.svg
+[0-0] 2020-07-18T21:59:10.087Z INFO webdriver: RESULT https://www.aexp-static.com/cdaas/one/statics/axp-static-assets/2.7.0/package/dist/img/flags/dls-flag-in.svg
+URLS [ 'https://www.aexp-static.com/cdaas/one/statics/axp-static-assets/1.8.0/package/dist/img/logos/dls-logo-bluebox-solid.svg',
+  'https://www.aexp-static.com/cdaas/one/statics/axp-static-assets/1.8.0/package/dist/img/logos/dls-logo-stack.svg',
+  'https://www.aexp-static.com/cdaas/one/statics/axp-static-assets/1.8.0/package/dist/img/logos/dls-logo-stack-white.svg',
+  'https://www.aexp-static.com/cdaas/one/statics/axp-static-assets/1.8.0/package/dist/img/logos/dls-logo-stack.svg',
+  'https://www.aexp-static.com/cdaas/one/statics/axp-static-assets/1.8.0/package/dist/img/logos/dls-logo-stack-white.svg',
+  'https://www.aexp-static.com/cdaas/one/statics/axp-static-assets/2.7.0/package/dist/img/flags/dls-flag-in.svg',
+  'https://www.aexp-static.com/cdaas/one/statics/axp-static-assets/2.7.0/package/dist/img/flags/dls-flag-in.svg',
+  'https://www.americanexpress.com/content/dam/amex/common/login-box-overlay/desktop-graphic.png',
+  'https://www.americanexpress.com/content/dam/amex/common/login-box-overlay/tablet-graphic.png',
+  'https://www.aexp-static.com/cdaas/one/statics/axp-static-assets/1.7.1/package/dist/img/logos/dls-logo-line.svg',
+  'https://www.aexp-static.com/cdaas/one/statics/axp-static-assets/2.7.0/package/dist/img/flags/dls-flag-in.svg' ]
+[0-0] 2020-07-18T21:59:10.464Z INFO webdriver: COMMAND deleteSession()
+[0-0] 2020-07-18T21:59:10.465Z INFO webdriver: [DELETE] http://localhost:9515/session/aa66563352a6ac2cbb5287af831e1cef
+[0-1] 2020-07-18T21:59:10.670Z INFO webdriver: COMMAND findElement("css selector", "#username")
+[0-1] 2020-07-18T21:59:10.670Z INFO webdriver: [POST] http://localhost:9515/session/6188239c08c8dbfaedef19324b9d26cf/element
+[0-1] 2020-07-18T21:59:10.671Z INFO webdriver: DATA { using: 'css selector', value: '#username' }
+[0-1] 2020-07-18T21:59:10.688Z INFO webdriver: RESULT { 'element-6066-11e4-a52e-4f735466cecf': '62180c0f-0064-4b40-9ad7-1706eee6df58' }
+[0-0] PASSED in chrome - /test/specs/basic.js
+[0-1] 2020-07-18T21:59:10.702Z INFO webdriver: COMMAND elementClear("62180c0f-0064-4b40-9ad7-1706eee6df58")
+2020-07-18T21:59:10.702Z INFO webdriver: [POST] http://localhost:9515/session/6188239c08c8dbfaedef19324b9d26cf/element/62180c0f-0064-4b40-9ad7-1706eee6df58/clear
+[0-1] 2020-07-18T21:59:10.754Z INFO webdriver: COMMAND elementSendKeys("62180c0f-0064-4b40-9ad7-1706eee6df58", "<Screenshot[base64]>")
+[0-1] 2020-07-18T21:59:10.754Z INFO webdriver: [POST] http://localhost:9515/session/6188239c08c8dbfaedef19324b9d26cf/element/62180c0f-0064-4b40-9ad7-1706eee6df58/value
+[0-1] 2020-07-18T21:59:10.754Z INFO webdriver: DATA { text: 'tomsmith' }
+[0-1] 2020-07-18T21:59:10.955Z INFO webdriver: COMMAND findElement("css selector", "#password")
+[0-1] 2020-07-18T21:59:10.955Z INFO webdriver: [POST] http://localhost:9515/session/6188239c08c8dbfaedef19324b9d26cf/element
+[0-1] 2020-07-18T21:59:10.955Z INFO webdriver: DATA { using: 'css selector', value: '#password' }
+[0-1] 2020-07-18T21:59:10.970Z INFO webdriver: RESULT { 'element-6066-11e4-a52e-4f735466cecf': '374dec90-3134-4438-9a3f-2756e032191c' }
+[0-1] 2020-07-18T21:59:10.976Z INFO webdriver: COMMAND elementClear("374dec90-3134-4438-9a3f-2756e032191c")
+[0-1] 2020-07-18T21:59:10.976Z INFO webdriver: [POST] http://localhost:9515/session/6188239c08c8dbfaedef19324b9d26cf/element/374dec90-3134-4438-9a3f-2756e032191c/clear
+[0-1] 2020-07-18T21:59:11.021Z INFO webdriver: COMMAND elementSendKeys("374dec90-3134-4438-9a3f-2756e032191c", "SuperSecretPassword!")
+[0-1] 2020-07-18T21:59:11.021Z INFO webdriver: [POST] http://localhost:9515/session/6188239c08c8dbfaedef19324b9d26cf/element/374dec90-3134-4438-9a3f-2756e032191c/value
+[0-1] 2020-07-18T21:59:11.022Z INFO webdriver: DATA { text: 'SuperSecretPassword!' }
+[0-1] 2020-07-18T21:59:11.135Z INFO webdriver: COMMAND findElement("css selector", "button[type="submit"]")
+[0-1] 2020-07-18T21:59:11.136Z INFO webdriver: [POST] http://localhost:9515/session/6188239c08c8dbfaedef19324b9d26cf/element
+[0-1] 2020-07-18T21:59:11.136Z INFO webdriver: DATA { using: 'css selector', value: 'button[type="submit"]' }
+[0-1] 2020-07-18T21:59:11.155Z INFO webdriver: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'fc9b5160-a947-4bf7-845a-4fdf1c84c6f2' }
+[0-1] 2020-07-18T21:59:11.160Z INFO webdriver: COMMAND elementClick("fc9b5160-a947-4bf7-845a-4fdf1c84c6f2")
+2020-07-18T21:59:11.161Z INFO webdriver: [POST] http://localhost:9515/session/6188239c08c8dbfaedef19324b9d26cf/element/fc9b5160-a947-4bf7-845a-4fdf1c84c6f2/click
+[0-1] 2020-07-18T21:59:11.941Z INFO webdriver: COMMAND findElement("css selector", "#flash")
+[0-1] 2020-07-18T21:59:11.942Z INFO webdriver: [POST] http://localhost:9515/session/6188239c08c8dbfaedef19324b9d26cf/element
+[0-1] 2020-07-18T21:59:11.942Z INFO webdriver: DATA { using: 'css selector', value: '#flash' }
+[0-1] 2020-07-18T21:59:11.963Z INFO webdriver: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'a61b4b1f-5269-4535-83b9-ac5af6ebac99' }
+[0-1] 2020-07-18T21:59:11.977Z INFO webdriver: COMMAND findElements("css selector", "#flash")
+2020-07-18T21:59:11.977Z INFO webdriver: [POST] http://localhost:9515/session/6188239c08c8dbfaedef19324b9d26cf/elements
+2020-07-18T21:59:11.977Z INFO webdriver: DATA { using: 'css selector', value: '#flash' }
+[0-1] 2020-07-18T21:59:12.008Z INFO webdriver: RESULT [ { 'element-6066-11e4-a52e-4f735466cecf': 'a61b4b1f-5269-4535-83b9-ac5af6ebac99' } ]
+[0-1] 2020-07-18T21:59:12.019Z INFO webdriver: COMMAND findElement("css selector", "#flash")
+2020-07-18T21:59:12.019Z INFO webdriver: [POST] http://localhost:9515/session/6188239c08c8dbfaedef19324b9d26cf/element
+2020-07-18T21:59:12.019Z INFO webdriver: DATA { using: 'css selector', value: '#flash' }
+[0-1] 2020-07-18T21:59:12.075Z INFO webdriver: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'a61b4b1f-5269-4535-83b9-ac5af6ebac99' }
+[0-1] 2020-07-18T21:59:12.088Z INFO webdriver: COMMAND getElementText("a61b4b1f-5269-4535-83b9-ac5af6ebac99")
+[0-1] 2020-07-18T21:59:12.090Z INFO webdriver: [GET] http://localhost:9515/session/6188239c08c8dbfaedef19324b9d26cf/element/a61b4b1f-5269-4535-83b9-ac5af6ebac99/text
+[0-1] 2020-07-18T21:59:12.120Z INFO webdriver: RESULT You logged into a secure area!
+×
+[0-1] 2020-07-18T21:59:12.125Z INFO webdriver: COMMAND deleteSession()
+[0-1] 2020-07-18T21:59:12.127Z INFO webdriver: [DELETE] http://localhost:9515/session/6188239c08c8dbfaedef19324b9d26cf
+[0-1] PASSED in chrome - /test/specs/example.e2e.js
+2020-07-18T21:59:12.386Z INFO @wdio/cli:launcher: Run onComplete hook
+
+ "spec" Reporter:
+------------------------------------------------------------------
+[chrome 84.0.4147.89 mac os x #0-0] Spec: /Users/arnavkohli/Desktop/broken-image-detector/test/specs/basic.js
+[chrome 84.0.4147.89 mac os x #0-0] Running: chrome (v84.0.4147.89) on mac os x
+[chrome 84.0.4147.89 mac os x #0-0] Session ID: aa66563352a6ac2cbb5287af831e1cef
+[chrome 84.0.4147.89 mac os x #0-0]
+[chrome 84.0.4147.89 mac os x #0-0] broken link test
+[chrome 84.0.4147.89 mac os x #0-0]    ✓ should check the page for broken image links
+[chrome 84.0.4147.89 mac os x #0-0]
+[chrome 84.0.4147.89 mac os x #0-0] 1 passing (4s)
+------------------------------------------------------------------
+[chrome 84.0.4147.89 mac os x #0-1] Spec: /Users/arnavkohli/Desktop/broken-image-detector/test/specs/example.e2e.js
+[chrome 84.0.4147.89 mac os x #0-1] Running: chrome (v84.0.4147.89) on mac os x
+[chrome 84.0.4147.89 mac os x #0-1] Session ID: 6188239c08c8dbfaedef19324b9d26cf
+[chrome 84.0.4147.89 mac os x #0-1]
+[chrome 84.0.4147.89 mac os x #0-1] My Login application
+[chrome 84.0.4147.89 mac os x #0-1]    ✓ should login with valid credentials
+[chrome 84.0.4147.89 mac os x #0-1]
+[chrome 84.0.4147.89 mac os x #0-1] 1 passing (5.7s)
+
+
+Spec Files:      2 passed, 2 total (100% completed) in 00:00:10 
+
+2020-07-18T21:59:12.390Z INFO @wdio/local-runner: Shutting down spawned worker
+2020-07-18T21:59:12.642Z INFO @wdio/local-runner: Waiting for 0 to shut down gracefully
+2020-07-18T21:59:12.642Z INFO @wdio/local-runner: shutting down

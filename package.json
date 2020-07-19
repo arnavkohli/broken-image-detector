@@ -1,0 +1,27 @@
+{
+  "name": "broken-image-detector",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/cli": "^6.3.3",
+    "chai": "^4.2.0",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^6.3.3",
+    "@wdio/mocha-framework": "^6.3.0",
+    "@wdio/spec-reporter": "^6.3.0",
+    "@wdio/sync": "^6.3.3",
+    "chromedriver": "^84.0.0",
+    "wdio-chromedriver-service": "^6.0.3"
+  }
+}
