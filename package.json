@@ -14,7 +14,7 @@
   "dependencies": {
     "@wdio/cli": "^6.3.3",
     "chai": "^4.2.0",
-    "node-fetch": "^2.6.0"
+    "node-fetch": "^2.6.7"
   },
   "devDependencies": {
     "@wdio/local-runner": "^6.3.3",
